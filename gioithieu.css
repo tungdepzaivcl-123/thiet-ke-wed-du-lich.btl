@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin: 0%;
+}
+body h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    color: brown;
+}
+body p{
+    color: rgb(red, green, blue);
+}
+body {
+    background: antiquewhite;
+}
+.sayqua button{
+    color: rgb(228, 233, 238);
+    float: left;
+    margin-top: -2px;
+    background: palevioletred;
+    font-size: larger;
+}
+.sao1 img {
+    float: right;
+    width: 500px;
+    height: 450px;
+}
+.sao2 img {
+    float: left;
+    width: 300px;
+    height: 400px;
+}.sao3 img {
+    float: left;
+    width: 300px;
+    height: 360px;
+}.sao4 img {
+    float: right;
+    width: 300px;
+    height: 200px;
+}
+.sao5 img {
+    float: right;
+    width: 300px;
+    height: 140px;
+}.sao6 img {
+    float: left;
+    width: 300px;
+    height: 190px;
+}
+.sao7 img {
+    float: left;
+    width: 400px;
+    height: 300px;
+}
+.sao8 img {
+    float: left;
+    width: 400px;
+    height: 320px;
+}

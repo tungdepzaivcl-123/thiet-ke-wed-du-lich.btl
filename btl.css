@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body h1 h3 {
+    font-family: 'MyHandwritingFont', cursive; 
+    font-size: 18px; 
+    line-height: 1.6; 
+}
+header img {
+    width: 100%;
+    height: 300px;
+}
+header button {
+    position: absolute;
+    top: 152px;
+    left: calc(50% + 250px - 50px);
+    width: 100px;
+    height: 30px;
+}
+
+header h1 {
+    text-align: center;
+    color: rgb(184, 10, 10);
+    font-size: 30px;
+    padding: 15px;
+}
+.menu li {
+    margin: auto;
+    color: white;
+    list-style-type: none;
+    font-size: 15px;
+    padding: 15px;
+}
+.menu {
+    margin-top: -10px;
+    background-color: rgb(78, 218, 176);
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+main {
+    background: fixed;
+    padding: 5px 30px 30px;
+}
+main h3 {
+    color: #f3664d;
+}
+main .section {
+    padding: 10px;
+    border-radius: 10px;
+    background: rgba(29, 223, 161, 0.521);
+    border: 1px solid rgb(99, 212, 212);
+}
+
+.section p {
+    text-align: center;
+}
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.product {
+    width: calc(33.33% - 10px);
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.product img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.product h3 {
+    font-size: 20px;
+}
+.product p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.product button {
+    background-color: rgb(15, 121, 153);
+    color: white;
+    border: none;
+    border-radius: 70px;
+    padding: 5px 10px;
+}
+
+.section a {
+    text-decoration: none;
+    color: white;
+    padding: 5px 10px;
+    margin: 10px auto;
+    background-color: red;
+    border-radius: 10px;
+}
+footer {
+    background-color: black;
+    color: white;
+    padding: 5px;
+    text-align: center;
+}
+.section img {
+    box-shadow:0px 10px 10px rgb(55, 170, 141);
+    width: 250px;
+    height: 250px;
+    border: none;
+}
+body {
+    background: rgba(29, 223, 161, 0.521);
+}
+marquee img {
+    width: 100px;
+    height: 120px;
+    border: 1px solid #ff0000;  
+}
+footer marquee {
+    background: rgba(100, 248, 223, 0.301);
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.rotate {
+    animation: rotate 1s linear infinite; 
+}
